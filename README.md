@@ -29,7 +29,7 @@ There are several projects aiming at formal verification of smart contracts. The
     - Workshop: Formal Verification Workshop Using KLab - Devcon IV. Could not find video/slides.
 * [Manticore](https://github.com/trailofbits/manticore): EVM bytecode analysis tool based on symbolic execution.
     - Article: [Manticore: Symbolic execution for humans](https://blog.trailofbits.com/2017/04/27/manticore-symbolic-execution-for-humans/).
-    - Workshop: Using Manticore and Symbolic Execution to Find Smart Contracts Bugs - Devcon IV. Could not find video/slides.
+    - Workshop: [Using Manticore and Symbolic Execution to Find Smart Contracts Bugs - Devcon IV](https://github.com/trailofbits/publications/tree/master/workshops/Using%20Manticore%20and%20Symbolic%20Execution%20to%20Find%20Smart%20Contracts%20Bugs%20-%20Devcon%204).
 * [MAIAN](https://github.com/MAIAN-tool/MAIAN): EVM bytecode analysis tool that checks whether a contract might be suicidal, prodigal or greedy.
     - Paper: [Finding The Greedy, Prodigal, and Suicidal Contracts at Scale](https://arxiv.org/pdf/1802.06038.pdf), Ivica Nikolic et al. (2018).
 * [Mythril](https://github.com/ConsenSys/mythril-classic): EVM bytecode security analysis tool that uses concolic analysis, taint analysis and control flow checking.
