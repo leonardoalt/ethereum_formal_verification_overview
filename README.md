@@ -53,6 +53,7 @@ There are several projects aiming at formal verification of smart contracts. The
 #### Vyper
 
 * [KVyper](https://github.com/kframework/vyper-semantics): Semantics of Vyper in K.
+* [FVyper](https://github.com/LayerXcom/verified-vyper-contracts): A collection of useful Vyper contracts developed with formal methods (KEVM)
 
 ### Papers without project pages
 
