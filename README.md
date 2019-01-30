@@ -56,7 +56,7 @@ There are several projects aiming at formal verification of smart contracts. The
 * [KVyper](https://github.com/kframework/vyper-semantics): Semantics of Vyper in K.
 
 ### Papers without project pages
-
+* [Debugging Smart Contract's Business Logic Using Symbolic Model-Checking](https://arxiv.org/abs/1812.00619), Evgeniy Shishkin (2018).
 * [Computing Exact Worst-Case Gas Consumption for Smart Contracts](https://www.inf.usi.ch/postdoc/hyvarinen/publications/MarescottiBHAS_ISOLA2018.pdf), Matteo Marescotti et al. (2018).
 * [Towards Verification of Ethereum Smart Contracts: A Formalization of Core of Solidity](https://www.researchgate.net/publication/329147546_Towards_Verification_of_Ethereum_Smart_Contracts_A_Formalization_of_Core_of_Solidity_10th_International_Conference_VSTTE_2018_Oxford_UK_July_18-19_2018_Revised_Selected_Papers), Jakub Zakrzewski (2018).
 * [Online Detection of Effectively Callback Free Objects with Applications to Smart Contracts](https://arxiv.org/pdf/1801.04032.pdf), Shelly Grossman et al. (2018).
