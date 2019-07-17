@@ -49,6 +49,8 @@ There are several projects aiming at formal verification of smart contracts. The
     - Talk: [Using Solidity's SMTChecker - Devcon IV](https://www.youtube.com/watch?v=QQbWpN76HEg), Leonardo Alt.
     - Article: [Formal Verification in Solidity](https://medium.com/@leonardoalt/formal-verification-in-solidity-5cbff7b7ff8), Leonardo Alt.
     - Paper: [SMT-Based Verification of Solidity Smart Contracts](https://github.com/leonardoalt/text/blob/master/solidity_isola_2018/main.pdf), Leonardo Alt and Christian Reitwiessner (2018).
+* [VerX](http://verx.ch/): Full functional verification for Ethereum smart contracts.
+    - Paper: [VerX: Safety Verification of Smart Contracts](https://files.sri.inf.ethz.ch/website/papers/sp20-verx.pdf), Permenev et al. (2019).
 
 #### Vyper
 
