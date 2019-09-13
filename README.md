@@ -10,6 +10,23 @@ Please do not hesitate and open an issue/PR if you have information not present 
 
 You might also want to visit the [Ethereum Formal Methods Gitter channel](https://gitter.im/ethereum/formal-methods).
 
+
+## Compilers
+
+### Solidity
+
+* [Yul-Semantics](https://github.com/ethereum/yul-semantics): Yul is an IR language used by the Solidity compiler
+that provides several different optimizers. Yul formal semantics enables equivalence checking between nonoptimized and
+optimized versions of the same program.
+
+
+## Ethereum 2.0
+
+### Phase 0
+
+* [Deposit Contract (Runtime Verification)](https://runtimeverification.com/blog/formal-verification-of-ethereum-2-0-deposit-contract-part-1/)
+
+
 ## Smart Contracts
 
 ### Projects / Tools
