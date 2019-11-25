@@ -72,6 +72,11 @@ There are several projects aiming at formal verification of smart contracts. The
     - Paper: [SMT-Based Verification of Solidity Smart Contracts](https://github.com/leonardoalt/text/blob/master/solidity_isola_2018/main.pdf), Leonardo Alt and Christian Reitwiessner (2018).
 * [solc-verify](https://github.com/SRI-CSL/solidity): Functional verification of Solidity code using annotations and modular program verification.
     - Paper: [solc-verify: A Modular Verifier for Solidity Smart Contracts](https://arxiv.org/abs/1907.04262), Á. Hajdu, D. Jovanović (2019).
+* [VeriSol](https://github.com/microsoft/verisol): Formal specification, verification and scalable refutation of Solidity smart contracts using code contracts, Boogie and Corral. 
+    - Slides: [Formal Verification of Smart Contracts and Protocols: What, Why, How - Devcon V](https://github.com/microsoft/verisol/blob/master/Docs/devcon5-verisol.pptx), Shuvendu Lahiri et al.
+    - Article: [Researchers work to secure Azure Blockchain smart contracts with formal verification ](https://www.microsoft.com/en-us/research/blog/researchers-work-to-secure-azure-blockchain-smart-contracts-with-formal-verification/), Microsoft Research Blog.
+    - Paper: [Formal Specification and Verification of Smart Contracts for Azure Blockchain
+](https://arxiv.org/abs/1812.08829), Yuepeng Wang, Shuvendu K. Lahiri, Shuo Chen, Rong Pan, Isil Dillig, Cody Born, Immad Naseer.
 
 #### Vyper
 
