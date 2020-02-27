@@ -18,7 +18,7 @@ You might also want to visit the [Ethereum Formal Methods Gitter channel](https:
 * [Yul-Semantics](https://github.com/ethereum/yul-semantics): Yul is an IR language used by the Solidity compiler
 that provides several different optimizers. Yul formal semantics enables equivalence checking between nonoptimized and
 optimized versions of the same program.
-* [Yul-Isabelle](https://github.com/mmalvarez/Yul-Isabelle). The semantics of the IR yul formalized in Isabelle.
+* [Yul-Isabelle](https://github.com/mmalvarez/Yul-Isabelle). The semantics of the IR Yul formalized in Isabelle.
 
 ## Ethereum 2.0
 
@@ -60,6 +60,8 @@ There are several projects aiming at formal verification of smart contracts. The
 
 #### Solidity
 
+* [Certora](https://www.certora.com/)
+   - Paper: [Finding Bugs Automatically in Smart Contracts with Parameterized Invariants](https://www.certora.com/pubs/sbc2020.pdf), Thomas Bernardi et al (2020)
 * [Slither](https://github.com/trailofbits/slither): Solidity static analysis framework that checks for specific vulnerabilities.
     - Article: [Slither – a Solidity static analysis framework](https://blog.trailofbits.com/2018/10/19/slither-a-solidity-static-analysis-framework/).
 * [SmartCheck](https://github.com/smartdec/smartcheck): Static analysis tool for discovering vulnerabilities in Solidity contracts.
@@ -78,8 +80,6 @@ There are several projects aiming at formal verification of smart contracts. The
     - Article: [Researchers work to secure Azure Blockchain smart contracts with formal verification ](https://www.microsoft.com/en-us/research/blog/researchers-work-to-secure-azure-blockchain-smart-contracts-with-formal-verification/), Microsoft Research Blog.
     - Paper: [Formal Specification and Verification of Smart Contracts for Azure Blockchain
 ](https://arxiv.org/abs/1812.08829), Yuepeng Wang, Shuvendu K. Lahiri, Shuo Chen, Rong Pan, Isil Dillig, Cody Born, Immad Naseer.
-* [Certora](https://www.certora.com/)
-   - Paper: [Finding Bugs Automatically in SmartContracts with Parameterized Invariants](https://www.certora.com/pubs/sbc2020.pdf), Thomas Bernardi et al (2020)
 
 #### Vyper
 
