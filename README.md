@@ -18,14 +18,14 @@ You might also want to visit the [Ethereum Formal Methods Gitter channel](https:
 * [Yul-Semantics](https://github.com/ethereum/yul-semantics): Yul is an IR language used by the Solidity compiler
 that provides several different optimizers. Yul formal semantics enables equivalence checking between nonoptimized and
 optimized versions of the same program.
-
+* [Yul-Isabelle](https://github.com/mmalvarez/Yul-Isabelle). The semantics of the IR yul formalized in Isabelle.
 
 ## Ethereum 2.0
 
 ### Phase 0
 
-* [Deposit Contract (Runtime Verification)](https://runtimeverification.com/blog/formal-verification-of-ethereum-2-0-deposit-contract-part-1/)
-
+* [Deposit Contract (Runtime Verification) (part 1)](https://runtimeverification.com/blog/formal-verification-of-ethereum-2-0-deposit-contract-part-1/)
+* [Deposit Contract (Runtime Verification) (part 2)](https://runtimeverification.com/blog/end-to-end-formal-verification-of-ethereum-2-0-deposit-smart-contract/)
 
 ## Smart Contracts
 
@@ -72,11 +72,14 @@ There are several projects aiming at formal verification of smart contracts. The
     - Paper: [SMT-Based Verification of Solidity Smart Contracts](https://github.com/leonardoalt/text/blob/master/solidity_isola_2018/main.pdf), Leonardo Alt and Christian Reitwiessner (2018).
 * [solc-verify](https://github.com/SRI-CSL/solidity): Functional verification of Solidity code using annotations and modular program verification.
     - Paper: [solc-verify: A Modular Verifier for Solidity Smart Contracts](https://arxiv.org/abs/1907.04262), Á. Hajdu, D. Jovanović (2019).
+    - Paper: [SMT-Friendly Formalization of the Solidity Memory Model](https://arxiv.org/abs/2001.03256), Á. Hajdu and D. Jovanović (2020).
 * [VeriSol](https://github.com/microsoft/verisol): Formal specification, verification and scalable refutation of Solidity smart contracts using code contracts, Boogie and Corral. 
     - Slides: [Formal Verification of Smart Contracts and Protocols: What, Why, How - Devcon V](https://github.com/microsoft/verisol/blob/master/Docs/devcon5-verisol.pptx), Shuvendu Lahiri et al.
     - Article: [Researchers work to secure Azure Blockchain smart contracts with formal verification ](https://www.microsoft.com/en-us/research/blog/researchers-work-to-secure-azure-blockchain-smart-contracts-with-formal-verification/), Microsoft Research Blog.
     - Paper: [Formal Specification and Verification of Smart Contracts for Azure Blockchain
 ](https://arxiv.org/abs/1812.08829), Yuepeng Wang, Shuvendu K. Lahiri, Shuo Chen, Rong Pan, Isil Dillig, Cody Born, Immad Naseer.
+* [Certora](https://www.certora.com/)
+   - Paper: [Finding Bugs Automatically in SmartContracts with Parameterized Invariants](https://www.certora.com/pubs/sbc2020.pdf), Thomas Bernardi et al (2020)
 
 #### Vyper
 
