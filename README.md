@@ -41,6 +41,7 @@ There are several projects aiming at formal verification of smart contracts. The
     - Talk: [Formal Verification of Smart Contracts](https://yoichihirai.com/deedtalk.pdf), Yoichi Hirai.
 * [KEVM](https://github.com/kframework/evm-semantics): K Semantics of the Ethereum Virtual Machine (EVM).
     - Talk: [KEVM Overview](https://www.youtube.com/watch?v=tIq_xECoicQ).
+    - Paper: [KEVM: A Complete Semantics of the Ethereum Virtual Machine](https://www.ideals.illinois.edu/handle/2142/97207), Everett Hildenbrandt et al. (2017).
 * [KLab](https://github.com/dapphub/klab): K framework proof explorer and smart contract specification format.
     - Tutorial: [KLab](https://youtu.be/z4mIo38x1u8), Everett Hildenbrandt.
     - Workshop: Formal Verification Workshop Using KLab - Devcon IV. Could not find video/slides.
