@@ -53,7 +53,7 @@ There are several projects aiming at formal verification of smart contracts. The
     - Article: [Practical Smart Contract Security Analysis and Exploitation— Part 1](https://hackernoon.com/practical-smart-contract-security-analysis-and-exploitation-part-1-6c2f2320b0c), Bernhard Mueller.
 * [Oyente](https://github.com/melonproject/oyente): EVM bytecode analysis tool based on symbolic execution.
     - Paper: [Making Smart Contracts Smarter](https://eprint.iacr.org/2016/633.pdf), Loi Luu et al. (2016).
-* [Securify](https://github.com/eth-sri/securify): Security scanner for Ethereum smart contracts.
+* [Securify](https://github.com/eth-sri/securify2): Security scanner for Ethereum smart contracts.
     - Paper: [Securify: Practical Security Analysis of Smart Contracts](https://files.sri.inf.ethz.ch/website/papers/ccs18-securify.pdf), Petar Tsankov et al. (2018).
 * [VerX](http://verx.ch/): Full functional verification for Ethereum smart contracts.
     - Paper: [VerX: Safety Verification of Smart Contracts](https://files.sri.inf.ethz.ch/website/papers/sp20-verx.pdf), Permenev et al. (2019).
