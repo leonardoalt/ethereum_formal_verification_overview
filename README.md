@@ -74,7 +74,11 @@ There are several projects aiming at formal verification of smart contracts. The
     - Paper: [SMT-Based Verification of Solidity Smart Contracts](https://github.com/leonardoalt/text/blob/master/solidity_isola_2018/main.pdf), Leonardo Alt and Christian Reitwiessner (2018).
 * [solc-verify](https://github.com/SRI-CSL/solidity): Functional verification of Solidity code using annotations and modular program verification.
     - Paper: [solc-verify: A Modular Verifier for Solidity Smart Contracts](https://arxiv.org/abs/1907.04262), Á. Hajdu, D. Jovanović (2019).
-    - Paper: [SMT-Friendly Formalization of the Solidity Memory Model](https://arxiv.org/abs/2001.03256), Á. Hajdu and D. Jovanović (2020).
+    - Talk: [solc-verify, a source-level formal verification tool for Solidity smart contracts](https://www.youtube.com/watch?v=1q2gSm3NuQA), given by Á. Hajdu at Solidity Summit (2020)
+    - Paper: [SMT-Friendly Formalization of the Solidity Memory Model](https://arxiv.org/abs/2001.03256), Á. Hajdu, D. Jovanović (2020).
+    - Talk: [SMT-Friendly Formalization of the Solidity Memory Model](https://youtu.be/B3ML9vGituk?t=626), given by Á. Hajdu at SMT (2020)
+    - Paper: [Formal Specification and Verification of Solidity Contracts with Events](https://arxiv.org/abs/2005.10382), Á. Hajdu, D. Jovanović, G. Ciocarlie (2020).
+    - Talk: [Formal Specification and Verification of Solidity Contracts with Events](https://youtu.be/NNytwVBZ1no), given by Á. Hajdu at FMBC (2020).
 * [VeriSol](https://github.com/microsoft/verisol): Formal specification, verification and scalable refutation of Solidity smart contracts using code contracts, Boogie and Corral. 
     - Slides: [Formal Verification of Smart Contracts and Protocols: What, Why, How - Devcon V](https://github.com/microsoft/verisol/blob/master/Docs/devcon5-verisol.pptx), Shuvendu Lahiri et al.
     - Article: [Researchers work to secure Azure Blockchain smart contracts with formal verification ](https://www.microsoft.com/en-us/research/blog/researchers-work-to-secure-azure-blockchain-smart-contracts-with-formal-verification/), Microsoft Research Blog.
