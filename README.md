@@ -39,8 +39,11 @@ There are several projects aiming at formal verification of smart contracts. The
     - Paper: [Foundations and Tools for the Static Analysis of Ethereum smart contracts](https://secpriv.tuwien.ac.at/fileadmin/t/secpriv/Papers/cav2018.pdf), Ilya Grishchenko et al. (2018).
 * [EthIsabelle](https://github.com/pirapira/eth-isabelle): A Lem formalization of EVM and some Isabelle/HOL proofs.
     - Talk: [Formal Verification of Smart Contracts](https://yoichihirai.com/deedtalk.pdf), Yoichi Hirai.
+* [HEVM](https://github.com/dapphub/dapptools): Symbolic execution engine and equivalence checker for EVM code.
+    - Article: [Symbolic execution for hevm](https://fv.ethereum.org/2020/07/28/symbolic-hevm-release/), Martin Lundfall.
 * [KEVM](https://github.com/kframework/evm-semantics): K Semantics of the Ethereum Virtual Machine (EVM).
     - Talk: [KEVM Overview](https://www.youtube.com/watch?v=tIq_xECoicQ).
+    - Paper: [KEVM: A Complete Semantics of the Ethereum Virtual Machine](https://www.ideals.illinois.edu/handle/2142/97207), Everett Hildenbrandt et al. (2017).
 * [KLab](https://github.com/dapphub/klab): K framework proof explorer and smart contract specification format.
     - Tutorial: [KLab](https://youtu.be/z4mIo38x1u8), Everett Hildenbrandt.
     - Workshop: Formal Verification Workshop Using KLab - Devcon IV. Could not find video/slides.
