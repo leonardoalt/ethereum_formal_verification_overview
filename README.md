@@ -24,6 +24,11 @@ optimized versions of the same program.
 
 ### Phase 0
 
+* [Formal Verification of the Eth2.0 Specs in Dafny](https://github.com/ConsenSys/eth2.0-dafny) The objective of this project is to write a formal specification of the Eth2.0 specification in the verification-aware programming language [Dafny](https://github.com/dafny-lang/dafny/wiki).
+
+* [Fully Mechanised Proof of the Incremental Merkle tree algorithm](https://github.com/ConsenSys/deposit-sc-dafny). The source code in this repository is the **first complete formal proof of correctness** of the incremental Merkle tree algorithm used in the Deposit Smart Contract. 
+The proofs and algorithms are written in [Dafny](https://github.com/dafny-lang/dafny/wiki), a verification-friendly programming language.
+
 * [Deposit Contract (Runtime Verification) (part 1)](https://runtimeverification.com/blog/formal-verification-of-ethereum-2-0-deposit-contract-part-1/)
 * [Deposit Contract (Runtime Verification) (part 2)](https://runtimeverification.com/blog/end-to-end-formal-verification-of-ethereum-2-0-deposit-smart-contract/)
 
