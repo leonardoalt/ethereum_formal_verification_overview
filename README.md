@@ -32,13 +32,13 @@ You might also want to visit the [Ethereum Formal Methods Gitter channel](https:
 
 ### Projects / Tools
 
+There are several projects aiming at formal specification and verification of smart contracts. The list given here is separated by target language and then sorted alphabetically. A few resource links are given with each project. For more resources on a specific project please visit the project's page.
+
 #### Specification
 
 * [Act](https://github.com/ethereum/act): Act allows specification of storage updates, pre/post conditions and contract invariants. Its tool suite also has proof backends able to prove many properties via Coq, SMT solvers, or hevm.
     - Talk: [Smart contracts as inductive systems](https://www.youtube.com/watch?v=WbL8U-nyhJE), Martin Lundfall.
 * [Scribble](https://docs.scribble.codes/): Scribble is a runtime verification tool for Solidity that transforms annotations in the [Scribble specification language](https://docs.scribble.codes/language/introduction) into concrete assertions that check the specification.
-
-There are several projects aiming at formal specification and verification of smart contracts. The list given here is separated by target language and then sorted alphabetically. A few resource links are given with each project. For more resources on a specific project please visit the project's page.
 
 #### EVM Bytecode
 
