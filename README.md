@@ -70,11 +70,11 @@ There are several projects aiming at formal verification of smart contracts. The
     - Article: [Slither – a Solidity static analysis framework](https://blog.trailofbits.com/2018/10/19/slither-a-solidity-static-analysis-framework/).
 * [SmartCheck](https://github.com/smartdec/smartcheck): Static analysis tool for discovering vulnerabilities in Solidity contracts.
     - Paper: [SmartCheck: static analysis of ethereum smart contracts](https://dl.acm.org/citation.cfm?id=3194113.3194115), Sergei Tikhomirov et al. (2018).
-* [Solidity's SMTChecker](https://github.com/ethereum/solidity): SMT-based model checker built-in the Solidity compiler which statically checks safety properties at compile-time, considering an unbounded number of transactions.
-    - Talk: [Using Solidity's SMTChecker - Devcon IV](https://www.youtube.com/watch?v=QQbWpN76HEg), Leonardo Alt.
+* [Solidity's SMTChecker](https://github.com/ethereum/solidity): SMT and Horn-based model checker built-in the Solidity compiler which statically checks safety properties at compile-time, considering an unbounded number of transactions.
+    - Talk: [Fully Automated Inductive Invariants Inference for Solidity Smart Contracts - Devcon V](https://www.youtube.com/watch?v=q40OrUZoG40), Leonardo Alt.
     - Slides: [Fully Automated Inductive Invariants Inference for Solidity Smart Contracts - Devcon V](https://github.com/leonardoalt/text/blob/master/chc_devcon_v/chc.pdf), Leonardo Alt.
-    - Article: [Formal Verification in Solidity](https://medium.com/@leonardoalt/formal-verification-in-solidity-5cbff7b7ff8), Leonardo Alt.
     - Article: [SMTChecker Toward Completeness](https://medium.com/@leonardoalt/smtchecker-toward-completeness-1a99c02e0133), Leonardo Alt.
+    - Paper: [Accurate Smart Contract Verification through Direct Modelling](https://github.com/leonardoalt/text/blob/master/smtchecker_chc/smtchecker_chc.pdf), Matteo Marescotti, Rodrigo Otoni, Leonardo Alt, Patrick Eugster, Antti E. J. Hyvärinen, and Natasha Sharygina (2020).
     - Paper: [SMT-Based Verification of Solidity Smart Contracts](https://github.com/leonardoalt/text/blob/master/solidity_isola_2018/main.pdf), Leonardo Alt and Christian Reitwiessner (2018).
 * [solc-verify](https://github.com/SRI-CSL/solidity): Functional verification of Solidity code using annotations and modular program verification.
     - Paper: [solc-verify: A Modular Verifier for Solidity Smart Contracts](https://arxiv.org/abs/1907.04262), Á. Hajdu, D. Jovanović (2019).
