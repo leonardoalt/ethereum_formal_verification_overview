@@ -1,6 +1,6 @@
 # Ethereum Formal Verification
 
-This page tries to give an overview of the formal verification projects in the Ethereum ecosystem, extending and updating https://github.com/pirapira/ethereum-formal-verification-overview.
+This page tries to give an overview of the formal verification (and related) projects in the Ethereum ecosystem, extending and updating https://github.com/pirapira/ethereum-formal-verification-overview.
 
 The focus here is formal verification of smart contracts, while attempting to also gather information about formal verification of protocols and compilers.
 
