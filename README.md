@@ -47,6 +47,7 @@ There are several projects aiming at formal specification and verification of sm
 * [EthIsabelle](https://github.com/pirapira/eth-isabelle): A Lem formalization of EVM and some Isabelle/HOL proofs.
     - Talk: [Formal Verification of Smart Contracts](https://yoichihirai.com/deedtalk.pdf), Yoichi Hirai.
 * [HEVM](https://github.com/dapphub/dapptools): Symbolic execution engine and equivalence checker for EVM code.
+    - Article: [Symbolic Execution With ds-test](https://fv.ethereum.org/2020/12/11/symbolic-execution-with-ds-test/), David Terry.
     - Article: [Symbolic execution for hevm](https://fv.ethereum.org/2020/07/28/symbolic-hevm-release/), Martin Lundfall.
 * [KEVM](https://github.com/kframework/evm-semantics): K Semantics of the Ethereum Virtual Machine (EVM).
     - Talk: [KEVM Overview](https://www.youtube.com/watch?v=tIq_xECoicQ).
