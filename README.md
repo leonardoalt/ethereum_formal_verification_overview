@@ -15,9 +15,7 @@ You might also want to visit the [Ethereum Formal Methods Gitter channel](https:
 
 ### Solidity
 
-* [Yul-Semantics](https://github.com/ethereum/yul-semantics): Yul is an IR language used by the Solidity compiler
-that provides several different optimizers. Yul formal semantics enables equivalence checking between nonoptimized and
-optimized versions of the same program.
+* [Yul-K](https://github.com/ethereum/Yul-K): The semantics of the IR Yul formalized in the K framework.
 * [Yul-Isabelle](https://github.com/mmalvarez/Yul-Isabelle). The semantics of the IR Yul formalized in Isabelle.
 
 ## Ethereum 2.0
