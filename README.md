@@ -34,6 +34,10 @@ You might also want to visit the [Ethereum Formal Methods Gitter channel](https:
 
 There are several projects aiming at formal specification and verification of smart contracts. The list given here is separated by target language and then sorted alphabetically. A few resource links are given with each project. For more resources on a specific project please visit the project's page.
 
+There is also an overwhelming amount of papers describing techniques related to formal verification of smart contracts. For example, visit
+https://ntu-srslab.github.io/smart-contract-publications/ and type `2020` into the search box. For that reason I am not listing anymore papers
+describing techniques for which I could not find the actual tool.
+
 #### Specification
 
 * [Act](https://github.com/ethereum/act): Act allows specification of storage updates, pre/post conditions and contract invariants. Its tool suite also has proof backends able to prove many properties via Coq, SMT solvers, or hevm.
@@ -42,10 +46,12 @@ There are several projects aiming at formal specification and verification of sm
 
 #### EVM Bytecode
 
+* [EthBMC](https://github.com/RUB-SysSec/EthBMC): A Bounded Model Checker for Smart Contracts.
 * [EtherTrust](https://www.netidee.at/ethertrust): Analysis tool for EVM bytecode.
     - Paper: [Foundations and Tools for the Static Analysis of Ethereum smart contracts](https://secpriv.tuwien.ac.at/fileadmin/t/secpriv/Papers/cav2018.pdf), Ilya Grishchenko et al. (2018).
 * [EthIsabelle](https://github.com/pirapira/eth-isabelle): A Lem formalization of EVM and some Isabelle/HOL proofs.
     - Talk: [Formal Verification of Smart Contracts](https://yoichihirai.com/deedtalk.pdf), Yoichi Hirai.
+* [eThor](https://secpriv.wien/ethor/): Static analysis for Ethereum smart contracts.
 * [HEVM](https://github.com/dapphub/dapptools): Symbolic execution engine and equivalence checker for EVM code.
     - Article: [Symbolic Execution With ds-test](https://fv.ethereum.org/2020/12/11/symbolic-execution-with-ds-test/), David Terry.
     - Article: [Symbolic execution for hevm](https://fv.ethereum.org/2020/07/28/symbolic-hevm-release/), Martin Lundfall.
@@ -77,6 +83,7 @@ There are several projects aiming at formal specification and verification of sm
     - Article: [Slither – a Solidity static analysis framework](https://blog.trailofbits.com/2018/10/19/slither-a-solidity-static-analysis-framework/).
 * [SmartCheck](https://github.com/smartdec/smartcheck): Static analysis tool for discovering vulnerabilities in Solidity contracts.
     - Paper: [SmartCheck: static analysis of ethereum smart contracts](https://dl.acm.org/citation.cfm?id=3194113.3194115), Sergei Tikhomirov et al. (2018).
+* [Solidifier](https://github.com/blockhousetech/research/tree/master/Solidifier): Bounded Model Checker for Solidity.
 * [Solidity's SMTChecker](https://github.com/ethereum/solidity): SMT and Horn-based model checker built-in the Solidity compiler which statically checks safety properties at compile-time, considering an unbounded number of transactions.
     - Talk: [Fully Automated Inductive Invariants Inference for Solidity Smart Contracts - Devcon V](https://www.youtube.com/watch?v=q40OrUZoG40), Leonardo Alt.
     - Slides: [Fully Automated Inductive Invariants Inference for Solidity Smart Contracts - Devcon V](https://github.com/leonardoalt/text/blob/master/chc_devcon_v/chc.pdf), Leonardo Alt.
@@ -90,6 +97,7 @@ There are several projects aiming at formal specification and verification of sm
     - Talk: [SMT-Friendly Formalization of the Solidity Memory Model](https://youtu.be/B3ML9vGituk?t=626), given by Á. Hajdu at SMT (2020)
     - Paper: [Formal Specification and Verification of Solidity Contracts with Events](https://arxiv.org/abs/2005.10382), Á. Hajdu, D. Jovanović, G. Ciocarlie (2020).
     - Talk: [Formal Specification and Verification of Solidity Contracts with Events](https://youtu.be/NNytwVBZ1no), given by Á. Hajdu at FMBC (2020).
+* [VeriSmart](https://github.com/kupl/VeriSmart-public): Safety verified for Solidity smart contracts, based on automatic inference of contract invariants.
 * [VeriSol](https://github.com/microsoft/verisol): Formal specification, verification and scalable refutation of Solidity smart contracts using code contracts, Boogie and Corral. 
     - Slides: [Formal Verification of Smart Contracts and Protocols: What, Why, How - Devcon V](https://github.com/microsoft/verisol/blob/master/Docs/devcon5-verisol.pptx), Shuvendu Lahiri et al.
     - Article: [Researchers work to secure Azure Blockchain smart contracts with formal verification ](https://www.microsoft.com/en-us/research/blog/researchers-work-to-secure-azure-blockchain-smart-contracts-with-formal-verification/), Microsoft Research Blog.
@@ -100,11 +108,3 @@ There are several projects aiming at formal specification and verification of sm
 
 * [FVyper](https://github.com/LayerXcom/verified-vyper-contracts): A collection of useful Vyper contracts developed with formal methods (KEVM).
 * [KVyper](https://github.com/kframework/vyper-semantics): Semantics of Vyper in K.
-
-### Papers without project pages
-* [Debugging Smart Contract's Business Logic Using Symbolic Model-Checking](https://arxiv.org/abs/1812.00619), Evgeniy Shishkin (2018).
-* [Computing Exact Worst-Case Gas Consumption for Smart Contracts](https://www.inf.usi.ch/postdoc/hyvarinen/publications/MarescottiBHAS_ISOLA2018.pdf), Matteo Marescotti et al. (2018).
-* [Towards Verification of Ethereum Smart Contracts: A Formalization of Core of Solidity](https://www.researchgate.net/publication/329147546_Towards_Verification_of_Ethereum_Smart_Contracts_A_Formalization_of_Core_of_Solidity_10th_International_Conference_VSTTE_2018_Oxford_UK_July_18-19_2018_Revised_Selected_Papers), Jakub Zakrzewski (2018).
-* [Online Detection of Effectively Callback Free Objects with Applications to Smart Contracts](https://arxiv.org/pdf/1801.04032.pdf), Shelly Grossman et al. (2018).
-* [ZEUS: Analyzing Safety of Smart Contracts](http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/02/ndss2018_09-1_Kalra_paper.pdf), Sukrit Kalra et al. (2018).
-* [Formal Verification of Smart Contracts](https://hal.inria.fr/hal-01400469/document), Karthikeyan Bhargavan et al. (2016).
