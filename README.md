@@ -124,3 +124,10 @@ describing techniques for which I could not find the actual tool.
 * [2vyper](https://github.com/viperproject/2vyper): Automatic verifier for Vyper smart contracts, based on the [Viper](https://github.com/viperproject/2vyper) verification infrastructure.
 * [FVyper](https://github.com/LayerXcom/verified-vyper-contracts): A collection of useful Vyper contracts developed with formal methods (KEVM).
 * [KVyper](https://github.com/kframework/vyper-semantics): Semantics of Vyper in K.
+
+# Other Lists
+
+* [Crytic Awesome Ethereum Security](https://github.com/crytic/awesome-ethereum-security): Less focused on formal verification but has a broader scope of types of tools.
+* [Consensys Security Best Practices](https://consensys.github.io/smart-contract-best-practices/): Best practices and list of security tools.
+* [ethereum.org](https://ethereum.org/de/developers/docs/security/): Intro to security of smart contracts.
+* [OpenZeppelin's list of Post-Mortems](https://forum.openzeppelin.com/t/list-of-ethereum-smart-contracts-post-mortems/1191)
