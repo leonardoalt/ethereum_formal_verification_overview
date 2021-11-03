@@ -2,7 +2,7 @@
 
 This page tries to give an overview of the formal verification (and related) projects in the Ethereum ecosystem, extending and updating https://github.com/pirapira/ethereum-formal-verification-overview.
 
-The focus here is formal verification of smart contracts, while attempting to also gather information about formal verification of protocols and compilers.
+The focus here is formal verification and other types of analysis of smart contracts, while attempting to also gather information about formal verification of protocols and compilers.
 
 The lists are not complete and you are encouraged to visit the project pages to know more about them.
 
@@ -13,10 +13,12 @@ You might also want to visit the [Ethereum Formal Methods Gitter channel](https:
 
 ## Compilers
 
-### Solidity
+### Solidity / Yul
 
 * [Yul-K](https://github.com/ethereum/Yul-K): The semantics of the IR Yul formalized in the K framework.
-* [Yul-Isabelle](https://github.com/mmalvarez/Yul-Isabelle). The semantics of the IR Yul formalized in Isabelle.
+* [Yul-Isabelle](https://github.com/ethereum/Yul-Isabelle). The semantics of the IR Yul formalized in Isabelle.
+* [Yul-ACL2](https://github.com/acl2/acl2/tree/master/books/kestrel/yul/language). The semantics of the IR Yul formalized in ACL2 framework.
+* [Solidity Optimizer Transformations](https://github.com/acl2/acl2/tree/master/books/kestrel/yul/transformations). Formalizes in ACL2 and verifies correctness of some of the Yul optimizer transformations present in the Solidity compiler.
 
 ## Ethereum 2.0
 
@@ -41,8 +43,17 @@ describing techniques for which I could not find the actual tool.
 #### Specification
 
 * [Act](https://github.com/ethereum/act): Act allows specification of storage updates, pre/post conditions and contract invariants. Its tool suite also has proof backends able to prove many properties via Coq, SMT solvers, or hevm.
+    - Article: [Act 0.1 Release & Tutorial](https://fv.ethereum.org/2021/08/31/act-0.1/), David Terry.
     - Talk: [Smart contracts as inductive systems](https://www.youtube.com/watch?v=WbL8U-nyhJE), Martin Lundfall.
+* [Certora Specification Language](https://www.certora.com/pubs/QuickGuide.pdf): Used by the Certora verification tool to write properties about analyzed contracts.
 * [Scribble](https://docs.scribble.codes/): Scribble is a runtime verification tool for Solidity that transforms annotations in the [Scribble specification language](https://docs.scribble.codes/language/introduction) into concrete assertions that check the specification.
+
+#### Fuzzing
+
+* [Echidna](https://github.com/crytic/echidna/): A fast smart contract fuzzer. It is designed for fuzzing and property-based testing.
+* [Harvey](https://consensys.net/diligence/blog/2019/01/fuzzing-smart-contracts-using-multiple-transactions/): A fuzzer for Ethereum smart contracts.
+* [hevm](https://github.com/dapphub/dapptools/tree/master/src/hevm): hevm is many things as you will see below, including a fuzzer. The fuzzer can also be used to try to break invariants.
+    - Article: [Symbolic Execution With ds-test](https://fv.ethereum.org/2020/12/11/symbolic-execution-with-ds-test/), David Terry.
 
 #### EVM Bytecode
 
@@ -52,7 +63,7 @@ describing techniques for which I could not find the actual tool.
 * [EthIsabelle](https://github.com/pirapira/eth-isabelle): A Lem formalization of EVM and some Isabelle/HOL proofs.
     - Talk: [Formal Verification of Smart Contracts](https://yoichihirai.com/deedtalk.pdf), Yoichi Hirai.
 * [eThor](https://secpriv.wien/ethor/): Static analysis for Ethereum smart contracts.
-* [HEVM](https://github.com/dapphub/dapptools): Symbolic execution engine and equivalence checker for EVM code.
+* [hevm](https://github.com/dapphub/dapptools/tree/master/src/hevm): Symbolic execution engine and equivalence checker for EVM code.
     - Article: [Symbolic Execution With ds-test](https://fv.ethereum.org/2020/12/11/symbolic-execution-with-ds-test/), David Terry.
     - Article: [Symbolic execution for hevm](https://fv.ethereum.org/2020/07/28/symbolic-hevm-release/), Martin Lundfall.
 * [KEVM](https://github.com/kframework/evm-semantics): K Semantics of the Ethereum Virtual Machine (EVM).
@@ -85,6 +96,10 @@ describing techniques for which I could not find the actual tool.
     - Paper: [SmartCheck: static analysis of ethereum smart contracts](https://dl.acm.org/citation.cfm?id=3194113.3194115), Sergei Tikhomirov et al. (2018).
 * [Solidifier](https://github.com/blockhousetech/research/tree/master/Solidifier): Bounded Model Checker for Solidity.
 * [Solidity's SMTChecker](https://github.com/ethereum/solidity): SMT and Horn-based model checker built-in the Solidity compiler which statically checks safety properties at compile-time, considering an unbounded number of transactions.
+    - Slides: [Formally Verifying Ethereum Smart Contracts by Overwhelming Horn Solvers](https://raw.githubusercontent.com/leonardoalt/text/master/dagstuhl/talk.pdf), Dagstuhl Seminar on Rigorous Methods for Smart Contracts, Leonardo Alt.
+    - Talk: [Fully Automated Formal Verification: How far can we go? - EthCC 4](https://www.youtube.com/watch?v=RunMhlTtdKw), Leonardo Alt & Martin Lundfall.
+    - Slides: [Fully Automated Formal Verification: How far can we go? - EthCC 4](https://github.com/leonardoalt/ethcc/blob/master/talk/ethcc.pdf), Leonardo Alt & Martin Lundfall.
+    - Article: [Automated Synthesis of External Unknown Functions](https://fv.ethereum.org/2021/01/18/smtchecker-and-synthesis-of-external-functions/), Leonardo Alt.
     - Talk: [Fully Automated Inductive Invariants Inference for Solidity Smart Contracts - Devcon V](https://www.youtube.com/watch?v=q40OrUZoG40), Leonardo Alt.
     - Slides: [Fully Automated Inductive Invariants Inference for Solidity Smart Contracts - Devcon V](https://github.com/leonardoalt/text/blob/master/chc_devcon_v/chc.pdf), Leonardo Alt.
     - Article: [SMTChecker Toward Completeness](https://medium.com/@leonardoalt/smtchecker-toward-completeness-1a99c02e0133), Leonardo Alt.
@@ -106,5 +121,6 @@ describing techniques for which I could not find the actual tool.
 
 #### Vyper
 
+* [2vyper](https://github.com/viperproject/2vyper): Automatic verifier for Vyper smart contracts, based on the [Viper](https://github.com/viperproject/2vyper) verification infrastructure.
 * [FVyper](https://github.com/LayerXcom/verified-vyper-contracts): A collection of useful Vyper contracts developed with formal methods (KEVM).
 * [KVyper](https://github.com/kframework/vyper-semantics): Semantics of Vyper in K.
