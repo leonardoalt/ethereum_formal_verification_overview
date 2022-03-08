@@ -15,9 +15,11 @@ You might also want to visit the [Ethereum Formal Methods Gitter channel](https:
 
 ### Solidity / Yul
 
-* [Yul-K](https://github.com/ethereum/Yul-K): The semantics of the IR Yul formalized in the K framework.
-* [Yul-Isabelle](https://github.com/ethereum/Yul-Isabelle). The semantics of the IR Yul formalized in Isabelle.
 * [Yul-ACL2](https://github.com/acl2/acl2/tree/master/books/kestrel/yul/language). The semantics of the IR Yul formalized in ACL2 framework.
+* [Yul-Isabelle](https://github.com/ethereum/Yul-Isabelle). The semantics of the IR Yul formalized in Isabelle.
+* [Yul-Lean](https://github.com/NethermindEth/Yul-Specification): A formal specification of the Yul IR semantics in the Lean proof assistant.
+    - Article: [Securing Warp: A formal specification of the Yul IR](https://medium.com/nethermind-eth/securing-warp-a-formal-specification-of-the-yul-ir-85bb3bf51c62), Julian Sutherland.
+* [Yul-K](https://github.com/ethereum/Yul-K): The semantics of the IR Yul formalized in the K framework.
 * [Solidity Optimizer Transformations](https://github.com/acl2/acl2/tree/master/books/kestrel/yul/transformations). Formalizes in ACL2 and verifies correctness of some of the Yul optimizer transformations present in the Solidity compiler.
 
 ## Ethereum 2.0
