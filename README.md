@@ -92,6 +92,8 @@ describing techniques for which I could not find the actual tool.
 
 * [Slither](https://github.com/trailofbits/slither): Solidity static analysis framework that checks for specific vulnerabilities.
     - Article: [Slither – a Solidity static analysis framework](https://blog.trailofbits.com/2018/10/19/slither-a-solidity-static-analysis-framework/).
+* [SmartAce](https://github.com/contract-ace/smartace): An automated framework for smart contract verification.
+	- Paper: [Verifying Solidity Smart Contracts Via Communication Abstraction in SmartACE](https://mariachris.github.io/Pubs/VMCAI-2022.pdf), Scott Wesley et al. (2022).
 * [SmartCheck](https://github.com/smartdec/smartcheck): Static analysis tool for discovering vulnerabilities in Solidity contracts.
     - Paper: [SmartCheck: static analysis of ethereum smart contracts](https://dl.acm.org/citation.cfm?id=3194113.3194115), Sergei Tikhomirov et al. (2018).
 * [Solidifier](https://github.com/blockhousetech/research/tree/master/Solidifier): Bounded Model Checker for Solidity.
