@@ -29,6 +29,7 @@ You might also want to visit the [Ethereum Formal Methods Gitter channel](https:
 * [Deposit Contract (Runtime Verification) (part 1)](https://runtimeverification.com/blog/formal-verification-of-ethereum-2-0-deposit-contract-part-1/)
 * [Deposit Contract (Runtime Verification) (part 2)](https://runtimeverification.com/blog/end-to-end-formal-verification-of-ethereum-2-0-deposit-smart-contract/)
 * [Formal Verification of the Eth2.0 Specs in Dafny](https://github.com/ConsenSys/eth2.0-dafny): The objective of this project is to write a formal specification of the Eth2.0 specification in the verification-aware programming language [Dafny](https://github.com/dafny-lang/dafny/wiki).
+	- Paper: [Formal Verification of the Ethereum 2.0 Beacon Chain](https://arxiv.org/abs/2110.12909), Franck Cassez, Joanne Fuller, Aditya Asgaonkar.
 * [Fully Mechanised Proof of the Deposit Contract's Incremental Merkle tree algorithm in Dafny](https://github.com/ConsenSys/deposit-sc-dafny).
 
 
@@ -67,6 +68,8 @@ describing techniques for which I could not find the actual tool.
 * [EthIsabelle](https://github.com/pirapira/eth-isabelle): A Lem formalization of EVM and some Isabelle/HOL proofs.
     - Talk: [Formal Verification of Smart Contracts](https://yoichihirai.com/deedtalk.pdf), Yoichi Hirai.
 * [eThor](https://secpriv.wien/ethor/): Static analysis for Ethereum smart contracts.
+* [GASOL](https://github.com/costa-group/gasol-optimizer): A generic framework that optimizes smart contracts by applying the technique called "super-optimization" that consists in optimizing basic blocks.
+	- Paper: Super-Optimization of Smart Contracts. Elvira Albert, Pablo Gordillo, Alejandro Hernández-Cerezo, Albert Rubio and Maria A. Schett, 2022. To appear.
 * [hevm](https://github.com/dapphub/dapptools/tree/master/src/hevm): Symbolic execution engine and equivalence checker for EVM code.
     - Article: [Symbolic Execution With ds-test](https://fv.ethereum.org/2020/12/11/symbolic-execution-with-ds-test/), David Terry.
     - Article: [Symbolic execution for hevm](https://fv.ethereum.org/2020/07/28/symbolic-hevm-release/), Martin Lundfall.
@@ -128,6 +131,17 @@ describing techniques for which I could not find the actual tool.
 * [2vyper](https://github.com/viperproject/2vyper): Automatic verifier for Vyper smart contracts, based on the [Viper](https://github.com/viperproject/2vyper) verification infrastructure.
 * [FVyper](https://github.com/LayerXcom/verified-vyper-contracts): A collection of useful Vyper contracts developed with formal methods (KEVM).
 * [KVyper](https://github.com/kframework/vyper-semantics): Semantics of Vyper in K.
+
+## Arithmetic Circuits and Zero Knowledge Applications
+
+* [ACL2 formalization of Semaphore](https://github.com/acl2/acl2/tree/master/books/kestrel/ethereum/semaphore)
+	- [Semaphore](https://github.com/appliedzkp/semaphore)
+	- [ACL2 Semaphore Docs](https://www.cs.utexas.edu/users/moore/acl2/manuals/latest/?topic=ZKSEMAPHORE____SEMAPHORE)
+* [Cairo verification using Lean](https://github.com/starkware-libs/formal-proofs)
+	- Paper: [A verified algebraic representation of Cairo program execution](https://github.com/starkware-libs/formal-proofs), Jeremy Avigad et al.
+* [Ecne](https://github.com/franklynwang/EcneProject): An engine for verifying the soundness of R1CS constraints.
+* [Leo](https://github.com/AleoHQ/leo)
+	- Paper: [LEO: A Programming Language for Formally Verified, Zero-Knowledge Applications](https://eprint.iacr.org/2021/651.pdf)
 
 # Other Lists
 
