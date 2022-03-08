@@ -69,6 +69,7 @@ describing techniques for which I could not find the actual tool.
     - Talk: [Formal Verification of Smart Contracts](https://yoichihirai.com/deedtalk.pdf), Yoichi Hirai.
 * [eThor](https://secpriv.wien/ethor/): Static analysis for Ethereum smart contracts.
 * [GASOL](https://github.com/costa-group/gasol-optimizer): A generic framework that optimizes smart contracts by applying the technique called "super-optimization" that consists in optimizing basic blocks.
+	- Paper: A Max-SMT Superoptimizer for EVM handling Memory and Storage. Elvira Albert, Pablo Gordillo, Alejandro Hernández-Cerezo and Albert Rubio, TACAS 2022. To appear.
 	- Paper: Super-Optimization of Smart Contracts. Elvira Albert, Pablo Gordillo, Alejandro Hernández-Cerezo, Albert Rubio and Maria A. Schett, 2022. To appear.
 * [hevm](https://github.com/dapphub/dapptools/tree/master/src/hevm): Symbolic execution engine and equivalence checker for EVM code.
     - Article: [Symbolic Execution With ds-test](https://fv.ethereum.org/2020/12/11/symbolic-execution-with-ds-test/), David Terry.
