@@ -57,6 +57,8 @@ describing techniques for which I could not find the actual tool.
 
 #### EVM Bytecode
 
+* [Certora](https://www.certora.com/)
+   - Paper: [Finding Bugs Automatically in Smart Contracts with Parameterized Invariants](https://www.certora.com/pubs/sbc2020.pdf), Thomas Bernardi et al (2020)
 * [EthBMC](https://github.com/RUB-SysSec/EthBMC): A Bounded Model Checker for Smart Contracts.
 * [EtherTrust](https://www.netidee.at/ethertrust): Analysis tool for EVM bytecode.
     - Paper: [Foundations and Tools for the Static Analysis of Ethereum smart contracts](https://secpriv.tuwien.ac.at/fileadmin/t/secpriv/Papers/cav2018.pdf), Ilya Grishchenko et al. (2018).
@@ -88,8 +90,6 @@ describing techniques for which I could not find the actual tool.
 
 #### Solidity
 
-* [Certora](https://www.certora.com/)
-   - Paper: [Finding Bugs Automatically in Smart Contracts with Parameterized Invariants](https://www.certora.com/pubs/sbc2020.pdf), Thomas Bernardi et al (2020)
 * [Slither](https://github.com/trailofbits/slither): Solidity static analysis framework that checks for specific vulnerabilities.
     - Article: [Slither – a Solidity static analysis framework](https://blog.trailofbits.com/2018/10/19/slither-a-solidity-static-analysis-framework/).
 * [SmartCheck](https://github.com/smartdec/smartcheck): Static analysis tool for discovering vulnerabilities in Solidity contracts.
