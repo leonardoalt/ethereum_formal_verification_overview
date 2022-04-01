@@ -43,6 +43,10 @@ There is also an overwhelming amount of papers describing techniques related to 
 https://ntu-srslab.github.io/smart-contract-publications/ and type `2020` into the search box. For that reason I am not listing anymore papers
 describing techniques for which I could not find the actual tool.
 
+#### Learning
+
+* [Formal Methods for DeFi Developers](https://github.com/WilfredTA/formal-methods-curriculum/): a course sequence for training developers in the use & development of formal methods and formal tools.
+
 #### Specification
 
 * [Act](https://github.com/ethereum/act): Act allows specification of storage updates, pre/post conditions and contract invariants. Its tool suite also has proof backends able to prove many properties via Coq, SMT solvers, or hevm.
