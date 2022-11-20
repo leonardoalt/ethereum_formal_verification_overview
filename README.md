@@ -53,6 +53,10 @@ describing techniques for which I could not find the actual tool.
     - Article: [Act 0.1 Release & Tutorial](https://fv.ethereum.org/2021/08/31/act-0.1/), David Terry.
     - Talk: [Smart contracts as inductive systems](https://www.youtube.com/watch?v=WbL8U-nyhJE), Martin Lundfall.
 * [Certora Specification Language](https://www.certora.com/pubs/QuickGuide.pdf): Used by the Certora verification tool to write properties about analyzed contracts.
+* [Clockwork Finance Framework](https://github.com/defi-formal/cff/): A general purpose formal verification framework and mechanized proof system for reasoning about economic security properties of composed DeFi contracts, using K framework's symbolic execution engine and model checker.
+   - Paper: [Clockwork Finance: Automated Analysis of Economic Security in Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
+   - Talk: [Clockwork Finance: Automated Analysis of Economic Security in Smart Contracts - SBC22](https://www.youtube.com/watch?v=n52xBSk2TSs)
+   - Slides: [Clockwork Finance](https://www.cs.cornell.edu/~babel/slides/cff_sbc_pdf.pdf)
 * [Scribble](https://docs.scribble.codes/): Scribble is a runtime verification tool for Solidity that transforms annotations in the [Scribble specification language](https://docs.scribble.codes/language/introduction) into concrete assertions that check the specification.
 
 #### Fuzzing
@@ -66,10 +70,6 @@ describing techniques for which I could not find the actual tool.
 
 * [Certora](https://www.certora.com/)
    - Paper: [Finding Bugs Automatically in Smart Contracts with Parameterized Invariants](https://www.certora.com/pubs/sbc2020.pdf), Thomas Bernardi et al (2020)
-* [Clockwork Finance Framework](https://github.com/defi-formal/cff/): A general purpose formal verification framework and mechanized proof system for reasoning about economic security properties of composed DeFi contracts, using K framework's symbolic execution engine and model checker.
-   - Paper: [Clockwork Finance: Automated Analysis of Economic Security in Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
-   - Talk: [Clockwork Finance: Automated Analysis of Economic Security in Smart Contracts - SBC22](https://www.youtube.com/watch?v=n52xBSk2TSs)
-   - Slides: [Clockwork Finance](https://www.cs.cornell.edu/~babel/slides/cff_sbc_pdf.pdf)
 * [EthBMC](https://github.com/RUB-SysSec/EthBMC): A Bounded Model Checker for Smart Contracts.
 * [EtherTrust](https://www.netidee.at/ethertrust): Analysis tool for EVM bytecode.
     - Paper: [Foundations and Tools for the Static Analysis of Ethereum smart contracts](https://secpriv.tuwien.ac.at/fileadmin/t/secpriv/Papers/cav2018.pdf), Ilya Grishchenko et al. (2018).
