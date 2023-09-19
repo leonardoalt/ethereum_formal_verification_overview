@@ -115,6 +115,7 @@ describing techniques for which I could not find the actual tool.
 * [SmartCheck](https://github.com/smartdec/smartcheck): Static analysis tool for discovering vulnerabilities in Solidity contracts.
     - Paper: [SmartCheck: static analysis of ethereum smart contracts](https://dl.acm.org/citation.cfm?id=3194113.3194115), Sergei Tikhomirov et al. (2018).
 * [Solidifier](https://github.com/blockhousetech/research/tree/master/Solidifier): Bounded Model Checker for Solidity.
+    - Paper: [Solidifier: bounded model checking solidity using lazy contract deployment and precise memory modelling](https://dl.acm.org/doi/10.1145/3412841.3442051), Pedro Antonino & A. W. Roscoe (2021).
 * [Solidity's SMTChecker](https://github.com/ethereum/solidity): SMT and Horn-based model checker built-in the Solidity compiler which statically checks safety properties at compile-time, considering an unbounded number of transactions.
     - Slides: [Formally Verifying Ethereum Smart Contracts by Overwhelming Horn Solvers](https://raw.githubusercontent.com/leonardoalt/text/master/dagstuhl/talk.pdf), Dagstuhl Seminar on Rigorous Methods for Smart Contracts, Leonardo Alt.
     - Talk: [Fully Automated Formal Verification: How far can we go? - EthCC 4](https://www.youtube.com/watch?v=RunMhlTtdKw), Leonardo Alt & Martin Lundfall.
