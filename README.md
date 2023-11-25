@@ -105,6 +105,9 @@ describing techniques for which I could not find the actual tool.
     - Paper: [Securify: Practical Security Analysis of Smart Contracts](https://files.sri.inf.ethz.ch/website/papers/ccs18-securify.pdf), Petar Tsankov et al. (2018).
 * [VerX](http://verx.ch/): Full functional verification for Ethereum smart contracts.
     - Paper: [VerX: Safety Verification of Smart Contracts](https://files.sri.inf.ethz.ch/website/papers/sp20-verx.pdf), Permenev et al. (2019).
+* [EVM-Dafny](https://github.com/Consensys/evm-dafny): A formal and executable semantics of the EVM in Dafny.
+    - Paper(FM23): [Formal and Executable Semantics of the Ethereum Virtual Machine in Dafny](https://link.springer.com/chapter/10.1007/978-3-031-27481-7_32),Franck Cassez et al.(2023).
+    - Paper(Arxiv version): [Formal and Executable Semantics of the Ethereum Virtual Machine in Dafny](https://arxiv.org/abs/2303.00152), Franck Cassez et al.(2023).
 
 #### Solidity
 
