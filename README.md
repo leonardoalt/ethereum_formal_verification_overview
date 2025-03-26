@@ -103,6 +103,7 @@ describing techniques for which I could not find the actual tool.
     - Paper: [Making Smart Contracts Smarter](https://eprint.iacr.org/2016/633.pdf), Loi Luu et al. (2016).
 * [Securify](https://github.com/eth-sri/securify2): Security scanner for Ethereum smart contracts.
     - Paper: [Securify: Practical Security Analysis of Smart Contracts](https://files.sri.inf.ethz.ch/website/papers/ccs18-securify.pdf), Petar Tsankov et al. (2018).
+* [Verifereum](https://verifereum.org): Specification of the EVM and full functional verification of EVM bytecode in HOL4.
 * [VerX](http://verx.ch/): Full functional verification for Ethereum smart contracts.
     - Paper: [VerX: Safety Verification of Smart Contracts](https://files.sri.inf.ethz.ch/website/papers/sp20-verx.pdf), Permenev et al. (2019).
 * [EVM-Dafny](https://github.com/Consensys/evm-dafny): A formal and executable semantics of the EVM in Dafny.
@@ -145,6 +146,7 @@ describing techniques for which I could not find the actual tool.
 
 #### Vyper
 
+* [Vyper-HOL](https://github.com/verifereum/vyper-hol): Semantics of Vyper and verified compilation of Vyper in HOL4.
 * [2vyper](https://github.com/viperproject/2vyper): Automatic verifier for Vyper smart contracts, based on the [Viper](https://github.com/viperproject/2vyper) verification infrastructure.
 * [FVyper](https://github.com/LayerXcom/verified-vyper-contracts): A collection of useful Vyper contracts developed with formal methods (KEVM).
 * [KVyper](https://github.com/kframework/vyper-semantics): Semantics of Vyper in K.
