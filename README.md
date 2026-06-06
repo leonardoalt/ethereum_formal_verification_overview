@@ -31,7 +31,7 @@ You might also want to visit the [Ethereum Formal Methods Gitter channel](https:
 * [Formal Verification of the Eth2.0 Specs in Dafny](https://github.com/ConsenSys/eth2.0-dafny): The objective of this project is to write a formal specification of the Eth2.0 specification in the verification-aware programming language [Dafny](https://github.com/dafny-lang/dafny/wiki).
 	- Paper: [Formal Verification of the Ethereum 2.0 Beacon Chain](https://arxiv.org/abs/2110.12909), Franck Cassez, Joanne Fuller, Aditya Asgaonkar.
 * [Fully Mechanised Proof of the Deposit Contract's Incremental Merkle tree algorithm in Dafny](https://github.com/ConsenSys/deposit-sc-dafny).
-* [SizzLean](https://github.com/etheorem/etheorem/tree/main/packages/SizzLean): A Lean 4 implementation of SSZ, the serialization and Merkleization format of the Ethereum consensus layer. It passes the full upstream consensus-spec-tests corpus on both presets across every fork from Phase 0 to Gloas. Three core theorems, roundtrip, non-malleability, and a size bound, are proved for the fixed-size SSZ types, that is the integers, bool, fixed vectors and lists, and containers built from them. The bitvector, bitlist, and variable-size containers are still open. The hash function sits behind a typeclass, so SHA-256 can be replaced by other hashes, and the only trust assumption is a named SHA-256 axiom.
+* [SizzLean](https://github.com/etheorem/etheorem/tree/main/packages/SizzLean): A Lean 4 implementation of SSZ, the serialization and Merkleization format of the Ethereum consensus layer, with roundtrip, non-malleability, and size-bound theorems proved for the fixed-size types and full conformance against the upstream consensus-spec-tests.
 
 
 ## Smart Contracts
