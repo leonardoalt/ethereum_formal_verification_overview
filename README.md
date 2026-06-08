@@ -31,6 +31,7 @@ You might also want to visit the [Ethereum Formal Methods Gitter channel](https:
 * [Formal Verification of the Eth2.0 Specs in Dafny](https://github.com/ConsenSys/eth2.0-dafny): The objective of this project is to write a formal specification of the Eth2.0 specification in the verification-aware programming language [Dafny](https://github.com/dafny-lang/dafny/wiki).
 	- Paper: [Formal Verification of the Ethereum 2.0 Beacon Chain](https://arxiv.org/abs/2110.12909), Franck Cassez, Joanne Fuller, Aditya Asgaonkar.
 * [Fully Mechanised Proof of the Deposit Contract's Incremental Merkle tree algorithm in Dafny](https://github.com/ConsenSys/deposit-sc-dafny).
+* [SizzLean](https://github.com/etheorem/etheorem/tree/main/packages/SizzLean): A Lean 4 implementation of SSZ, the serialization and Merkleization format of the Ethereum consensus layer, with roundtrip, non-malleability, and size-bound theorems proved for the fixed-size types and full conformance against the upstream consensus-spec-tests.
 
 
 ## Smart Contracts
