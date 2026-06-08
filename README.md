@@ -49,6 +49,8 @@ There is also an overwhelming amount of papers describing techniques related to 
 * [Harvey](https://diligence.security/blog/2019/01/fuzzing-smart-contracts-using-multiple-transactions/): A fuzzer for Ethereum smart contracts.
 * [hevm](https://github.com/argotorg/hevm): hevm is many things as you will see below, including a fuzzer. The fuzzer can also be used to try to break invariants.
     - Article: [Symbolic Execution With ds-test](https://fv.ethereum.org/2020/12/11/symbolic-execution-with-ds-test/), David Terry.
+* [ItyFuzz](https://github.com/fuzzland/ityfuzz): Snapshot-based hybrid fuzzer for EVM (and MoveVM) bytecode that combines fuzzing with symbolic execution to reach deep states quickly.
+    - Paper: [ItyFuzz: Snapshot-Based Fuzzer for Smart Contract](https://arxiv.org/abs/2306.17135), Chaofan Shou, Shangyin Tan, Koushik Sen (ISSTA 2023).
 
 ### Economics / Game Theory
 
@@ -70,15 +72,19 @@ There is also an overwhelming amount of papers describing techniques related to 
 * [EVM-Dafny](https://github.com/Consensys/evm-dafny): A formal and executable semantics of the EVM in Dafny.
     - Paper (FM23): [Formal and Executable Semantics of the Ethereum Virtual Machine in Dafny](https://link.springer.com/chapter/10.1007/978-3-031-27481-7_32), Franck Cassez et al. (2023).
     - Paper (arXiv version): [Formal and Executable Semantics of the Ethereum Virtual Machine in Dafny](https://arxiv.org/abs/2303.00152), Franck Cassez et al. (2023).
+* [evm-smith](https://github.com/leonardoalt/evm-smith): A framework for AI systems to write EVM bytecode and prove it safe, built on EVMYulLean.
+* [EVMYulLean](https://github.com/NethermindEth/EVMYulLean): An executable formal model of the EVM and the Yul IR in Lean 4.
 * [GASOL](https://github.com/costa-group/gasol-optimizer): A generic framework that optimizes smart contracts by applying the technique called "super-optimization" that consists in optimizing basic blocks.
 	- Paper: [A Max-SMT Superoptimizer for EVM handling Memory and Storage](https://doi.org/10.1007/978-3-030-99524-9_4). Elvira Albert, Pablo Gordillo, Alejandro Hernández-Cerezo and Albert Rubio, TACAS 2022.
 	- Paper: [Super-Optimization of Smart Contracts](https://doi.org/10.1145/3506800). Elvira Albert, Pablo Gordillo, Alejandro Hernández-Cerezo, Albert Rubio and Maria A. Schett, 2022.
+* [Halmos](https://github.com/a16z/halmos): Symbolic testing tool (a16z) that symbolically executes Foundry/Solidity tests to prove or refute assertions over all possible inputs.
 * [hevm](https://github.com/argotorg/hevm): Symbolic execution engine and equivalence checker for EVM code.
     - Article: [Symbolic Execution With ds-test](https://fv.ethereum.org/2020/12/11/symbolic-execution-with-ds-test/), David Terry.
     - Article: [Symbolic execution for hevm](https://fv.ethereum.org/2020/07/28/symbolic-hevm-release/), Martin Lundfall.
 * [KEVM](https://github.com/runtimeverification/evm-semantics): K Semantics of the Ethereum Virtual Machine (EVM).
     - Talk: [KEVM Overview](https://www.youtube.com/watch?v=tIq_xECoicQ).
     - Paper: [KEVM: A Complete Semantics of the Ethereum Virtual Machine](https://www.ideals.illinois.edu/items/102260), Everett Hildenbrandt et al. (2017).
+* [Kontrol](https://github.com/runtimeverification/kontrol): Combines KEVM and Foundry to let developers run K-framework symbolic-execution proofs directly from their Solidity test suites.
 * [Manticore](https://github.com/trailofbits/manticore): EVM bytecode analysis tool based on symbolic execution.
     - Article: [Manticore: Symbolic execution for humans](https://blog.trailofbits.com/2017/04/27/manticore-symbolic-execution-for-humans/).
     - Workshop: [Using Manticore and Symbolic Execution to Find Smart Contracts Bugs - Devcon IV](https://github.com/trailofbits/publications/tree/master/workshops/Using%20Manticore%20and%20Symbolic%20Execution%20to%20Find%20Smart%20Contracts%20Bugs%20-%20Devcon%204).
@@ -99,6 +105,8 @@ There is also an overwhelming amount of papers describing techniques related to 
 
 ### Solidity
 
+* [Clear](https://github.com/NethermindEth/Clear): Interactive formal-verification framework for Yul/Solidity programs, built on Nethermind's Lean model of the Yul EVM dialect.
+* [Pyrometer](https://github.com/nascentxyz/pyrometer): Combines abstract interpretation, symbolic execution, and static analysis to perform value-range and reachability (bound) analysis on Solidity.
 * [Slither](https://github.com/crytic/slither): Solidity static analysis framework that checks for specific vulnerabilities.
     - Article: [Slither – a Solidity static analysis framework](https://blog.trailofbits.com/2018/10/19/slither-a-solidity-static-analysis-framework/).
 * [SmartAce](https://github.com/contract-ace/smartace): An automated framework for smart contract verification.
@@ -129,6 +137,8 @@ There is also an overwhelming amount of papers describing techniques related to 
     - Slides: [Formal Verification of Smart Contracts and Protocols: What, Why, How - Devcon V](https://github.com/microsoft/verisol/blob/master/Docs/devcon5-verisol.pptx), Shuvendu Lahiri et al.
     - Article: [Researchers work to secure Azure Blockchain smart contracts with formal verification](https://www.microsoft.com/en-us/research/blog/researchers-work-to-secure-azure-blockchain-smart-contracts-with-formal-verification/), Microsoft Research Blog.
     - Paper: [Formal Specification and Verification of Smart Contracts for Azure Blockchain](https://arxiv.org/abs/1812.08829), Yuepeng Wang, Shuvendu K. Lahiri, Shuo Chen, Rong Pan, Isil Dillig, Cody Born, Immad Naseer.
+* [Verity](https://github.com/lfglabs-dev/verity): A Lean-based EDSL to specify, implement, and prove Ethereum smart contracts, compiling verified contracts down to EVM bytecode with machine-checked spec/implementation equivalence. ([veritylang.com](https://veritylang.com))
+* [Wake](https://github.com/Ackee-Blockchain/wake): Python framework combining a Solidity static-analysis detector framework, property-based fuzzing, and developer tooling.
 
 ### Vyper
 
@@ -169,9 +179,20 @@ There is also an overwhelming amount of papers describing techniques related to 
 	- [ACL2 Semaphore Docs](https://acl2.org/doc/?topic=ZKSEMAPHORE____SEMAPHORE)
 * [Cairo verification using Lean](https://github.com/starkware-libs/formal-proofs)
 	- Paper: [A verified algebraic representation of Cairo program execution](https://github.com/starkware-libs/formal-proofs), Jeremy Avigad et al.
+* [circomspect](https://github.com/trailofbits/circomspect): Trail of Bits static analyzer/linter for Circom circuits, with multiple passes that flag under-constrained signals and other circuit bugs.
+* [circuzz](https://github.com/Rigorous-Software-Engineering/circuzz): Metamorphic and differential fuzzing pipeline for zero-knowledge circuit compiler toolchains.
+* [CIVER](https://github.com/costa-group/circom_civer): Modular verifier of weak safety (absence of under-constrained signals), tag specifications, and pre/postconditions for Circom circuits.
+* [Coda](https://eprint.iacr.org/2023/547): A statically-typed language for ZK circuits with a refinement type system that discharges proof obligations to Coq.
 * [Ecne](https://github.com/franklynwang/EcneProject): An engine for verifying the soundness of R1CS constraints.
+* [gnark-lean-extractor](https://github.com/reilabs/gnark-lean-extractor): Extracts gnark (zk-SNARK library) circuits defined in Go into Lean for formal verification.
+* [Korrekt (halo2-analyzer)](https://github.com/quantstamp/halo2-analyzer): Uses abstract interpretation and SMT to detect under-constrained cells and unused gates/columns in Halo2 (PLONKish) circuits.
 * [Leo](https://github.com/ProvableHQ/leo)
 	- Paper: [LEO: A Programming Language for Formally Verified, Zero-Knowledge Applications](https://eprint.iacr.org/2021/651.pdf)
+* [Picus](https://github.com/Veridise/Picus): Automated verifier (Veridise) for the uniqueness / under-constrained property of ZKP circuits (Circom, R1CS, gnark), using SMT solvers.
+* [Verified zk(E)VM](https://github.com/Verified-zkEVM): A research effort accelerating the application of formal verification to zk(E)VMs in Lean ([verified-zkevm.org](https://verified-zkevm.org)).
+	- [ArkLib](https://github.com/Verified-zkEVM/ArkLib): Formally verified arguments of knowledge in Lean.
+	- [clean](https://github.com/Verified-zkEVM/clean): A verified Lean circuit DSL.
+* [zkFuzz](https://github.com/Koukyosyumei/zkFuzz): Program-mutation fuzzing framework for ZK circuits, formalizing a Trace-Constraint Consistency Test to find under/over-constraint bugs.
 
 ## Other Lists
 
