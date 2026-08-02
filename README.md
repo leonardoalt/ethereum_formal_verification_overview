@@ -61,6 +61,7 @@ There is also an overwhelming amount of papers describing techniques related to 
 
 ### EVM Bytecode
 
+* [Blanc](https://github.com/skbaek/blanc): An EVM programming language in Lean 4 with compiler-correctness and WETH solvency proofs.
 * [Certora](https://www.certora.com/)
    - Paper: [Finding Bugs Automatically in Smart Contracts with Parameterized Invariants](https://groups.csail.mit.edu/sdg/pubs/2020/sbc2020.pdf), Thomas Bernardi et al (2020)
 * [EthBMC](https://github.com/RUB-SysSec/EthBMC): A Bounded Model Checker for Smart Contracts. ⚠️ _No commits since 2022-12._
@@ -81,6 +82,7 @@ There is also an overwhelming amount of papers describing techniques related to 
 * [hevm](https://github.com/argotorg/hevm): Symbolic execution engine and equivalence checker for EVM code.
     - Article: [Symbolic Execution With ds-test](https://fv.ethereum.org/2020/12/11/symbolic-execution-with-ds-test/), David Terry.
     - Article: [Symbolic execution for hevm](https://fv.ethereum.org/2020/07/28/symbolic-hevm-release/), Martin Lundfall.
+* [Jaune](https://github.com/skbaek/jaune): An executable formal specification of the EVM in Lean 4.
 * [KEVM](https://github.com/runtimeverification/evm-semantics): K Semantics of the Ethereum Virtual Machine (EVM).
     - Talk: [KEVM Overview](https://www.youtube.com/watch?v=tIq_xECoicQ).
     - Paper: [KEVM: A Complete Semantics of the Ethereum Virtual Machine](https://www.ideals.illinois.edu/items/102260), Everett Hildenbrandt et al. (2017).
