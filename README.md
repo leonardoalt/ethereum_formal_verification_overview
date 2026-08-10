@@ -64,6 +64,7 @@ There is also an overwhelming amount of papers describing techniques related to 
 * [Blanc](https://github.com/skbaek/blanc): An EVM programming language in Lean 4 with compiler-correctness and WETH solvency proofs.
 * [Certora](https://www.certora.com/)
    - Paper: [Finding Bugs Automatically in Smart Contracts with Parameterized Invariants](https://groups.csail.mit.edu/sdg/pubs/2020/sbc2020.pdf), Thomas Bernardi et al (2020)
+* [EquiVM](https://github.com/argotorg/EquiVM): Refinement proofs in Lean 4 that EVM bytecode implements a high-level program written in Sol⁻, a Solidity-like specification language, intended to be produced by LLM agents.
 * [EthBMC](https://github.com/RUB-SysSec/EthBMC): A Bounded Model Checker for Smart Contracts. ⚠️ _No commits since 2022-12._
 * [EtherTrust](https://www.netidee.at/ethertrust): Analysis tool for EVM bytecode.
     - Paper: [Foundations and Tools for the Static Analysis of Ethereum smart contracts](https://link.springer.com/chapter/10.1007/978-3-319-96145-3_4), Ilya Grishchenko et al. (2018).
@@ -73,6 +74,9 @@ There is also an overwhelming amount of papers describing techniques related to 
 * [EVM-Dafny](https://github.com/Consensys/evm-dafny): A formal and executable semantics of the EVM in Dafny.
     - Paper (FM23): [Formal and Executable Semantics of the Ethereum Virtual Machine in Dafny](https://link.springer.com/chapter/10.1007/978-3-031-27481-7_32), Franck Cassez et al. (2023).
     - Paper (arXiv version): [Formal and Executable Semantics of the Ethereum Virtual Machine in Dafny](https://arxiv.org/abs/2303.00152), Franck Cassez et al. (2023).
+* [evm-sail](https://github.com/frisitano/evm-sail): A formal and executable specification of the EVM in [Sail](https://github.com/rems-project/sail), the ISA-specification language behind the official RISC-V model, exporting to Coq, Isabelle/HOL, HOL4 and Lean.
+    - Docs: [evm-sail documentation and benchmarks](https://frisitano.github.io/evm-sail/).
+* [EvmSemantics](https://github.com/powdr-labs/evm-semantics): A relational small-step and big-step semantics of the EVM in Lean 4, with an executable interpreter proven sound against the relation.
 * [evm-smith](https://github.com/leonardoalt/evm-smith): A framework for AI systems to write EVM bytecode and prove it safe, built on EVMYulLean.
 * [EVMYulLean](https://github.com/NethermindEth/EVMYulLean): An executable formal model of the EVM and the Yul IR in Lean 4.
 * [GASOL](https://github.com/costa-group/gasol-optimizer): A generic framework that optimizes smart contracts by applying the technique called "super-optimization" that consists in optimizing basic blocks.
@@ -154,9 +158,11 @@ There is also an overwhelming amount of papers describing techniques related to 
 ### Solidity / Yul
 
 * [Yul-ACL2](https://github.com/acl2/acl2/tree/master/books/kestrel/yul/language). The semantics of the IR Yul formalized in the ACL2 framework.
+* [yul-compiler](https://github.com/powdr-labs/yul-compiler): A verified compiler from a fragment of Yul to EVM bytecode in Lean 4, proven correct against [yul-semantics](https://github.com/powdr-labs/yul-semantics) and [EvmSemantics](https://github.com/powdr-labs/evm-semantics), rejecting what it cannot verify rather than emitting unverified code.
 * [Yul-Isabelle](https://github.com/argotorg/yul-isabelle). The semantics of the IR Yul formalized in Isabelle. ⚠️ _No commits since 2022-11._
 * [Yul-Lean](https://github.com/NethermindEth/Yul-Specification): A formal specification of the Yul IR semantics in the Lean proof assistant.
     - Article: [Securing Warp: A formal specification of the Yul IR](https://medium.com/nethermind-eth/securing-warp-a-formal-specification-of-the-yul-ir-85bb3bf51c62), Julian Sutherland.
+* [yul-semantics](https://github.com/powdr-labs/yul-semantics): A gas-free big-step relational semantics of Yul in Lean 4, parameterized over an abstract dialect, with an executable interpreter proven adequate.
 * [Solidity Optimizer Transformations](https://github.com/acl2/acl2/tree/master/books/kestrel/yul/transformations). Formalizes in ACL2 and verifies correctness of some of the Yul optimizer transformations present in the Solidity compiler.
 * [Yul-K](https://github.com/ethereum/Yul-K): The semantics of the IR Yul formalized in the K framework. ⚠️ _Archived; no commits since 2019-10._
 
@@ -194,6 +200,7 @@ There is also an overwhelming amount of papers describing techniques related to 
 * [Verified zk(E)VM](https://github.com/Verified-zkEVM): A research effort accelerating the application of formal verification to zk(E)VMs in Lean ([verified-zkevm.org](https://verified-zkevm.org)).
 	- [ArkLib](https://github.com/Verified-zkEVM/ArkLib): Formally verified arguments of knowledge in Lean.
 	- [clean](https://github.com/Verified-zkEVM/clean): A verified Lean circuit DSL.
+	- [evm-asm](https://github.com/Verified-zkEVM/evm-asm): An experimental verified macro assembler in Lean 4 over a RISC-V RV64IM backend, targeting a zkEVM stateless block validator with no compiler in the trusted computing base.
 * [zkFuzz](https://github.com/Koukyosyumei/zkFuzz): Program-mutation fuzzing framework for ZK circuits, formalizing a Trace-Constraint Consistency Test to find under/over-constraint bugs.
 
 ## Other Lists
