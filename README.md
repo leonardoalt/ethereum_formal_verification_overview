@@ -58,6 +58,9 @@ There is also an overwhelming amount of papers describing techniques related to 
    - Paper: [Clockwork Finance: Automated Analysis of Economic Security in Smart Contracts](https://arxiv.org/pdf/2109.04347.pdf)
    - Talk: [Clockwork Finance: Automated Analysis of Economic Security in Smart Contracts - SBC22](https://www.youtube.com/watch?v=n52xBSk2TSs)
    - Slides: [Clockwork Finance](https://www.cs.cornell.edu/~babel/slides/cff_sbc_pdf.pdf)
+* [CheckMate](https://github.com/apre-group/checkmate): A framework designed to automatically check game-theoretic security properties of games modeling blockchain/off-chain protocols.
+    - Paper: [Divide and Conquer: a Compositional Approach to Game-Theoretic Security (OOPSLA25)](https://easychair.org/publications/preprint/cBvG)
+    - Paper on modelling protocols as games: [Game Modeling of Blockchain Protocols (iFM25)](https://easychair.org/publications/preprint/zdhG)
 
 ### EVM Bytecode
 
